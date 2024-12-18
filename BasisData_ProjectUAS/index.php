@@ -20,11 +20,34 @@
 
   </head>
   <body>
-    <!-- BUNG IPAN -->
+    <!-- BUNG PRASSSSSSS -->
+<div class="container-fluid">
+  <div class="navbar">
+    <h1>PustakaKita</h1>
 
-
-
-    <h1>Hello, world!</h1>
+    <ul>
+    <li><a href="#">
+      Beranda
+    </a></li>
+    <li><a href="#">
+      Tentang Kami
+    </a></li>
+    <li><a href="#">
+      Koleksi Buku
+    </a></li>
+    <li><a href="#">
+      Blog
+    </a></li>
+    </ul>
+    
+    <div class="icon_nav">
+      <a href="#"><i class="bi bi-book"></i></a>
+      <a href="#" class="btn_icon">Ayo Baca</a>
+    </div>
+  
+    
+  </div>
+</div>
 
 
 
