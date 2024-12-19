@@ -74,8 +74,11 @@
       <h2>Tentang Kami</h2>
       <p> Dengan koleksi buku yang terus bertambah dan fitur-fitur yang inovatif, kami hadir untuk menemani Anda dalam setiap perjalanan membaca</p>
       
+      <img src="asset/OWNER.png" alt="">
     </div>
-    <div class="col-md-6"></div>
+    <div class="col-md-6">
+      <img src="asset/botak-nuklis-tentang.png" alt="">
+    </div>
    </div>
   <!-- Tentang Kami End -->
 </div>
