@@ -170,7 +170,51 @@ body {
 
 
 /* Ivander punya start */
+.blog_bar {
+    background-color: var(--cream);
+    padding-top: 12rem;
+    padding-bottom: 8rem;
+    font-size: 2rem;
+    text-align: center;
+    text-transform: capitalize;
 
+
+}
+
+.blog-list{
+    padding: 5rem 20rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    flex-wrap: nowrap;
+    padding-bottom: 0rem;
+}
+.blog-list .col-md-4 h2 {
+    font-size: 1.2rem;
+    margin-top: 1.5rem;
+}
+
+.blog-list .col-md-4 img {
+    width: 100%;
+}
+.blog-list .col-md-4 .blog-para{
+padding-left: 1rem;
+}
+
+.blog-list .col-md-4 {
+    min-height: 520px;
+}
+
+
+.blog-list .col-md-4 p {
+    font-size: 0.9rem;
+}
+.blog-list .col-md-4 a {
+    color: var(--brown);
+    font-weight: 700;
+    text-decoration: none;
+}
 /* Ivander punya end */
 
 
