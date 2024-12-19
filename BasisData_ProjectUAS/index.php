@@ -22,6 +22,7 @@
   <body>
     <!-- BUNG PRASSSSSSS -->
 <div class="container-fluid">
+  <!-- Navbar start -->
   <div class="navbar">
     <h1>PustakaKita</h1>
 
@@ -47,6 +48,36 @@
   
     
   </div>
+
+  <!-- Navbar End -->
+
+  <!-- Jumbotron start -->
+  <div class="jumbo">
+    <span>#1 WEBSITE PEMINJAMAN BUKU</span>
+    <h1>Membaca Bersama, <br>
+    Tumbuh Bersama</h1>
+    <p>Kami adalah perpustakaan digital yang berkomitmen untuk memberikan akses mudah dan nyaman bagi semua orang untuk menikmati dunia literasi</p>
+    <a href="#">Pinjam Buku Favoritmu</a>
+
+    <hr>
+    <div class="bottom-jumbo">
+      <p>Petualangan Membaca Tanpa Batas, Hanya dengan Sentuhan Jari</p>
+      <a href="#"><i class="bi bi-arrow-down-short"></i></a>
+    </div>
+  </div>
+
+  <!-- Jumbotron end -->
+
+  <!-- Tentang Kami start -->
+   <div class="tentang row">
+    <div class="col-md-6">
+      <h2>Tentang Kami</h2>
+      <p> Dengan koleksi buku yang terus bertambah dan fitur-fitur yang inovatif, kami hadir untuk menemani Anda dalam setiap perjalanan membaca</p>
+      
+    </div>
+    <div class="col-md-6"></div>
+   </div>
+  <!-- Tentang Kami End -->
 </div>
 
 
