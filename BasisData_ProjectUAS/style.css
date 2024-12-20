@@ -91,16 +91,87 @@ body {
 
 
 /* Ipan punya start */
-.buku-navbar {
+ .buku-navbar {
     background-color: var(--cream);
     padding-top: 8rem;
     padding-bottom: 3rem;
     font-size: 2rem;
     text-align: center;
     text-transform: capitalize;
-
-
 }
+
+
+.buku-list {
+    padding: 5rem 20rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    flex-wrap: nowrap;
+    padding-bottom: 0rem;
+}
+
+.buku-list .col-md-4 {
+    height: 25rem;
+    background-color: var(--white);
+    padding: 10px;
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    text-align: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.buku-list .col-md-4 h2 {
+    font-size: 1.2rem;
+    margin-top: 1.5rem;
+    
+}
+
+.buku-list .col-md-4 img {
+    width: 50%;
+    box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    
+}
+
+.buku-list .col-md-4 .buku-para {
+    padding-left: 1rem;
+}
+
+.buku-list .col-md-4 p {
+    font-size: 0.9rem;
+}
+
+.buku-list .col-md-4 a {
+    color: var(--brown);
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.buku-list .col-md-4 .tambahkan-buku{
+    color: var(--black);
+    font-weight: 500;
+    text-decoration: none;
+    border: 2px solid ;
+    padding: 2px 5px;
+    border-radius: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+
 
 .buku-list{
     padding: 5rem 20rem;
@@ -155,59 +226,9 @@ padding-left: 1rem;
     color: var(--brown);
     font-weight: 700;
     text-decoration: none;
-    /* margin-bottom:2rem ; */
+    
 }
-perbaiki agar semuanya di tengah
-
-
-
-
-
-
-/* .buku-list {
-    padding: 5rem 20rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 30px;
-    flex-wrap: nowrap;
-    padding-bottom: 0rem;
-}
-
-.buku-list .col-md-4 {
-    min-height: 520px;
-    background-color: var(--cream);
-    padding: 10px;
-    display: flex;
-    flex-direction: column; 
-    align-items: center;
-    text-align: center;
-}
-
-.buku-list .col-md-4 h2 {
-    font-size: 1.2rem;
-    margin-top: 1.5rem;
-}
-
-.buku-list .col-md-4 img {
-    width: 50%;
-}
-
-.buku-list .col-md-4 .buku-para {
-    padding-left: 1rem;
-}
-
-.buku-list .col-md-4 p {
-    font-size: 0.9rem;
-}
-
-.buku-list .col-md-4 a {
-    color: var(--brown);
-    font-weight: 700;
-    text-decoration: none;
-} */
-
-
+perbaiki agar semuanya di tengah */
 
 
 

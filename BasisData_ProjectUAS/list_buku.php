@@ -66,9 +66,10 @@
                 <img src="asset/Buku-Ajar-Manajemen-Pemasaran_Achmad-Riza.png" alt="">
                 <div class="buku-para">
                     <h2>Manajemen Pemasaran</h2>
-                    <p>Membaca bersama mempererat hubungan anak dan orang tua. Temukan buku-buku seru dan edukatif yang
-                        bisa dinikmati bersama, sambil menumbuhkan kecintaan membaca sejak dini.</p>
-                    <a href="#">Baca seluruh post</a>
+                    <p>Zuriani Ritonga, S.E., M.M.</p>
+                    <a href="#">Manajemen</a>
+                    <br><br>
+                    <a href="#" class="tambahkan-buku">Tambahkan</a>
                 </div>
 
             </div>
