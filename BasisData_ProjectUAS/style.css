@@ -102,7 +102,7 @@ body {
 
 
 .buku-list {
-    padding: 5rem 20rem;
+    padding: 2rem 20rem;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -112,7 +112,7 @@ body {
 }
 
 .buku-list .col-md-4 {
-    height: 25rem;
+    height: 28rem;
     background-color: var(--white);
     padding: 10px;
     display: flex;
@@ -127,25 +127,54 @@ body {
     margin-top: 1.5rem;
     
 }
+.buku-list .col-md-4 h2:hover {
+    font-size: 1.25rem;
+    margin-top: 1.5rem;
+    color: var(--brown);
+    transition: all 0.5s ease-in-out;
+    
+}
 
 .buku-list .col-md-4 img {
     width: 50%;
+    
+    
+}
+
+.buku-list .col-md-4 img:hover {
+    width: 55%;
     box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transition: all 0.5s ease-in-out;
     
 }
 
 .buku-list .col-md-4 .buku-para {
-    padding-left: 1rem;
+    padding-top: 0.1rem;
 }
 
 .buku-list .col-md-4 p {
     font-size: 0.9rem;
 }
 
+.buku-list .col-md-4 p:hover {
+    font-size: 1rem;
+    color: var(--brown);
+    transition: all 0.5s ease-in-out;
+}
+
 .buku-list .col-md-4 a {
     color: var(--brown);
     font-weight: 500;
     text-decoration: none;
+    font-size: 1rem;
+}
+
+.buku-list .col-md-4 a:hover {
+    color: var(--brown);
+    font-weight: 700;
+    font-size: 1.2rem;
+    text-decoration: none;
+    transition: all 0.5s ease-in-out;
 }
 
 .buku-list .col-md-4 .tambahkan-buku{
@@ -153,8 +182,18 @@ body {
     font-weight: 500;
     text-decoration: none;
     border: 2px solid ;
-    padding: 2px 5px;
+    padding: 4px 5px;
     border-radius: 5px;
+}
+
+.buku-list .col-md-4 .tambahkan-buku:hover{
+    background-color: var(--brown);
+    color: var(--white);
+    padding: 4px 15px;
+    border: 2px solid ;
+    transition: all 0.5s ease-in-out;
+    font-weight: 555;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
 }
 
 

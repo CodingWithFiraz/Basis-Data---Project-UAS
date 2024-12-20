@@ -66,9 +66,9 @@
                 <img src="asset/Buku-Ajar-Manajemen-Pemasaran_Achmad-Riza.png" alt="">
                 <div class="buku-para">
                     <h2>Manajemen Pemasaran</h2>
-                    <p>Zuriani Ritonga, S.E., M.M.</p>
+                    <p>Dr. Achmad Rizal, S.Pi., M.Si.,</p>
                     <a href="#">Manajemen</a>
-                    <br><br>
+                    <br><br><br><br>
                     <a href="#" class="tambahkan-buku">Tambahkan</a>
                 </div>
 
@@ -78,9 +78,10 @@
                 <img src="asset//Buku-Ajar-Manajemen-Strategi_Zuriani.png" alt="">
                 <div class="buku-para">
                     <h2>Manajemen Strategi (Teori dan Aplikasi)</h2>
-                    <p>Beragam kisah cinta untuk dinikmati — dari yang lucu, aneh, mendalam, hingga tragis. Temukan
-                        cerita yang sesuai dengan seleramu!</p>
-                    <a href="#">Baca seluruh post</a>
+                    <p>Zuriani Ritonga, S.E., M.M.</p>
+                    <a href="#">Manajemen</a>
+                    <br><br><br>
+                    <a href="#" class="tambahkan-buku">Tambahkan</a>
                 </div>
 
                 <!-- page 3 -->
@@ -90,9 +91,10 @@
                 <img src="asset/Buku-Iman-Sebagai-Basis-Psikologi-Pengembangan-Karakter.png" alt="">
                 <div class="buku-para">
                     <h2>Iman Sebagai Basis Psikologi Pengembangan Karakter</h2>
-                    <p>Membaca bersama mempererat hubungan anak dan orang tua. Temukan buku-buku seru dan edukatif yang
-                        bisa dinikmati bersama, sambil menumbuhkan kecintaan membaca sejak dini.</p>
-                    <a href="#">Baca seluruh post</a>
+                    <p>Dr. H. Alivermana Wiguna, M.Ag.</p>
+                    <a href="#">Psikologi</a>
+                    <br><br><br>
+                    <a href="#" class="tambahkan-buku">Tambahkan</a>
                 </div>
 
             </div>
@@ -105,9 +107,10 @@
                 <img src="asset/Cover-Buku-DIGITAL-MARKETING-MELALUI-APLIKASI-PLAYSTORE_Usman-Chamdani.png" alt="">
                 <div class="buku-para">
                     <h2>DIGITAL MARKETING MELALUI APLIKASI PLAYSTORE</h2>
-                    <p>Merekomendasi buku yang dapat membantu mahasiswa mengembangkan keterampilan kolaborasi dalam
-                        perkuliahan. Dari teknik komunikasi efektif hingga manajemen tim</p>
-                    <a href="#">Baca seluruh post</a>
+                    <p>Drs. Usman Chamdani</p>
+                    <a href="#">Marketing</a>
+                    <br><br><br>
+                    <a href="#" class="tambahkan-buku">Tambahkan</a>
                 </div>
 
             </div>
@@ -118,9 +121,10 @@
                 <img src="asset/Hukum-Perdata-International-Ronald-Saija.png" alt="">
                 <div class="buku-para">
                     <h2>Hukum Perdata International</h2>
-                    <p>temukan cara membaca buku jenis ini dengan lebih mendalam dan menikmati pengalaman literasi yang
-                        lebih introspekti</p>
-                    <a href="#">Baca seluruh post</a>
+                    <p>Dr. Ronald Saija, S.H., M.H.</p>
+                    <a href="#">Hukum</a>
+                    <br><br><br><br>
+                    <a href="#" class="tambahkan-buku">Tambahkan</a>
                 </div>
 
             </div>
@@ -131,9 +135,53 @@
                 <img src="asset/Hukum-Perkawinan-Islam-di-Indonesia-Hamdi.png" alt="">
                 <div class="buku-para">
                     <h2>Hukum Perkawinan Islam di Indonesia</h2>
-                    <p>Alumni Universitas Indonesia telah meraih prestasi membanggakan di berbagai bidang. Simak
-                        kisah-kisah inspiratif mereka yang membawa perubahan positif dan menginspirasi banyak orang.</p>
-                    <a href="#">Baca seluruh post</a>
+                    <p>Hamdi, S.HI., LL.M.</p>
+                    <a href="#">Hukum</a>
+                    <br><br><br>
+                    <a href="#" class="tambahkan-buku">Tambahkan</a>
+                </div>
+
+            </div>
+
+
+        </div>
+        <div class="buku-list row">
+            <div class="col-md-4">
+                <img src="asset/Buku-Perspektif-Pendidikan-dalam-Bingkai_Kurniawan.png" alt="">
+                <div class="buku-para">
+                    <h2>Perspektif Pendidikan dalam Bingkai</h2>
+                    <p>Kurniawan</p>
+                    <a href="#">Pendidikan</a>
+                    <br><br><br>
+                    <a href="#" class="tambahkan-buku">Tambahkan</a>
+                </div>
+
+            </div>
+
+            <!-- page 5 -->
+
+            <div class="col-md-4">
+                <img src="asset/Misteri-Cinta-Guru-Honorer_Ismiati-Mahmudah.png" alt="">
+                <div class="buku-para">
+                    <h2>Misteri Cinta Guru Honorer</h2>
+                    <p>Ismiati Mahmudah</p>
+                    <a href="#">Cinta</a>
+                    <br><br><br><br>
+                    <a href="#" class="tambahkan-buku">Tambahkan</a>
+                </div>
+
+            </div>
+
+            <!-- page 6 -->
+
+            <div class="col-md-4">
+                <img src="asset/Menanti-Restu-Langit_Makhasin.png" alt="">
+                <div class="buku-para">
+                    <h2>Menanti Restu Langit</h2>
+                    <p>Makhasin</p>
+                    <a href="#">Cinta</a>
+                    <br><br><br>
+                    <a href="#" class="tambahkan-buku">Tambahkan</a>
                 </div>
 
             </div>
