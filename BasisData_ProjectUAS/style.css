@@ -19,6 +19,7 @@ body {
     border-bottom: 1px solid var(--black);
     box-shadow: 1px 3px rgba(0, 0, 0, 0.056);
     position: fixed;
+    z-index: 99999;
     background-color: var(--white);
     width: 100%;
 }
@@ -89,7 +90,7 @@ body {
 /* Firas punya start */
     /* jumbo start */
 .jumbo {
-    padding: 12rem 14rem;
+    padding: 12rem 10rem;
 }
 
 .jumbo span {
@@ -162,8 +163,348 @@ body {
     /* tentang start */
 .tentang {
     background-color: var(--cream);
+    padding: 8rem 10rem;
+    padding-bottom: 0;
+}
+
+.tentang .owner {
+    width: 38%;
+}
+
+.tentang h2 {
+    font-size: 2.1rem;
+    margin-bottom: 2rem;
+}
+
+.tentang p {
+    font-size: 0.95rem;
+}
+
+.tentang .d-flex {
+    align-items: center;
+    margin-top: 2rem;
+}
+
+.tentang .d-flex p {
+    margin: 0;
+    margin-left: 1.5rem;
+    font-weight: 600;
+}
+
+.tentang .images-tentang {
+    width: 100%;
+}
+
+
+    /* kelebihan start*/
+.kelebihan {
+    margin-top: 7rem;
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+.kelebihan h2 {
+    text-align: center;
+
+}
+
+.kelebihan .col-md-3 {
+    background-color: var(--white);
+    padding: 1.3rem;
+    margin-top: 1rem;
+    border-radius: 5px;
+    width: 23%;
+}
+
+.kelebihan i {
+    background-color: var(--brown);
+    padding: 0.8rem 1rem;
+    color: var(--white);
+    border-radius: 5px;
+}
+
+.kelebihan h5 {
+    margin-top: 2rem;
+    font-size: 1.1rem;
+    margin-bottom: 1rem;
+}
+
+.kelebihan p {
+    margin: 0;
+}
+
+
+
+/* kolkesi */
+#koleksi {
+    margin-top: 10rem;
+    width: 100%;
+    height: 350px;
+    position: relative;
+}
+
+#koleksi h3 {
+    font-size: 2rem;
+    text-transform: capitalize;
+    margin-bottom: 1rem;
+}
+
+#koleksi P {
+    width: 90%;
+}
+
+#koleksi img {
+    width: 50%;
+    position: absolute;
+    z-index: 76;
+}
+
+.koleksi-btn {
+    margin-top: 2rem;
+    display: flex;
+    gap: 30px;
+}
+
+.koleksi-btn a {
+    color: var(--black);
+    text-decoration: none;
+    background-color: var(--black);
+    color: var(--white);
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    transition: all linear 0.2s;
+}
+
+.koleksi-btn a:hover {
+    background: var(--brown);
+}
+
+.koleksi-btn .btn-login {
+    background: none;
+    border: 1px solid var(--black);
+    color: var(--black);
+}
+
+.koleksi-btn .btn-login:hover {
+    background-color: var(--brown);
+    color: var(--white);
+    border: none;
 }
     /* tentang end */
+
+
+
+    /* perpus star */
+.perpustakaan {
+    background-color: var(--white);
+    padding: 9rem 10rem;
+    padding-bottom: 15rem;
+    position: relative;
+}
+
+.perpustakaan h3 {
+    font-size: 2rem;
+}
+
+.perpustakaan
+
+.lokasi-perpus {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.8rem 0;
+    border-bottom: 1px solid var(--black);
+}
+
+.lokasi-perpus a {
+    color: var(--black);
+    text-decoration: none;
+}
+
+.lokasi-perpus span {
+    color: var(--brown);
+}
+    /* perpus end */
+
+
+
+    /* blog start */
+    .blog {
+        position: absolute;
+        display: flex;
+        width: 78%;
+    }
+
+    .blog .col-md-6 {
+        margin-top: 1rem;
+        padding: 0;
+    }
+
+    .blog a{
+        color: var(--black);
+        text-decoration: none;
+    }
+
+    .blog img {
+        width: 95%;
+        height: 350px;
+        object-fit: cover;
+        border-radius: 5px;
+    }
+
+    .blog h5 {
+        width: 90%;
+        margin-top: 1rem;
+    }
+
+    .blog p {
+        width: 85%;
+    }
+    /* blog end */
+
+
+    /* best-seller start */
+    .best-seller {
+        background-color: var(--cream);
+        padding: 9rem 10rem;
+        padding-top: 28rem; 
+        text-align: center;   
+    }
+
+    .best-seller img {
+        width: 100%;
+        transition: 0.5s ease-in-out;
+    }
+
+    .best-seller h3 {
+        margin-bottom: 2rem;
+       
+    }
+
+    .best-seller img:hover {
+        scale: 1.1;
+    }
+
+    /* best-seller end */
+
+
+    /* footer start */
+    .footer {
+        background-color: var(--cream);
+        padding: 0rem 10rem;
+        padding-bottom: 5rem;
+    }
+
+    .footer .col-md-12 {
+        padding: 2rem 0;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border-top: 1px solid var(--black);
+        border-bottom: 1px solid var(--black);
+    }
+
+    .footer .col-md-12 ul {
+        display: flex;
+        gap: 2.3rem;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        list-style-type: none;
+        margin: 0;
+    }
+
+    .footer .col-md-12 ul a {
+        color: var(--black);
+        text-decoration: none;
+    }
+
+    .footer .col-md-12 ul a:hover {
+        text-decoration: underline;
+    }
+
+    .social-footer li {
+        padding: 0.4rem 0.8rem;
+        border: 1px solid var(--black);
+        border-radius: 50%;
+    }
+
+
+
+    .footer .col-md-8, .footer .col-md-4  {
+        padding: 3rem 0;
+    }
+
+    .footer-pinjam {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .footer-pinjam h1 {
+        font-size: 3.7rem;
+        font-weight: 500;
+    }
+
+    .footer-pinjam a {
+        font-size: 1.8rem;
+        color: var(--white);
+        background-color: var(--black);
+        padding: 0rem 0.4rem;
+        border-radius: 50%;
+    }
+
+    .footer-copy {
+        display: flex;
+        gap: 5px;
+        margin-top: 7rem;
+    }
+
+    .footer-copy a {
+        color: var(--black);
+        text-decoration: none;
+    }
+    
+
+    .footer-copy a:hover {
+        text-decoration: underline;
+    }
+
+    .footer .col-md-4 {
+        display: flex;
+        flex-direction: column;
+        justify-content: end;
+        padding-bottom: 2rem;
+    }
+
+    .footer .subs {
+        display: flex;
+        margin-top: 1rem;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .footer .subs a {
+        color: var(--black);
+        text-decoration: none;
+        text-align: center;
+        padding: 0.2rem 0.8rem;
+        border-radius: 5px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 1px solid var(--black);
+    }
+
+    .footer .subs p {
+        margin: 0;
+    }
+
+    .footer .subs a:hover {
+        background-color: var(--black);
+        color: var(--white);
+    }
+    /* footer end */
 /* Firas punya end */
 
 

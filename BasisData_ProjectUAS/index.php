@@ -30,7 +30,7 @@
     <li><a href="#">
       Beranda
     </a></li>
-    <li><a href="#">
+    <li><a href="#tentang">
       Tentang Kami
     </a></li>
     <li><a href="#">
@@ -62,25 +62,205 @@
     <hr>
     <div class="bottom-jumbo">
       <p>Petualangan Membaca Tanpa Batas, Hanya dengan Sentuhan Jari</p>
-      <a href="#"><i class="bi bi-arrow-down-short"></i></a>
+      <a href="#koleksi"><i class="bi bi-arrow-down-short"></i></a>
     </div>
   </div>
 
   <!-- Jumbotron end -->
 
   <!-- Tentang Kami start -->
-   <div class="tentang row">
+   <div class="tentang" id="tentang">
+    <div class="row">
     <div class="col-md-6">
       <h2>Tentang Kami</h2>
       <p> Dengan koleksi buku yang terus bertambah dan fitur-fitur yang inovatif, kami hadir untuk menemani Anda dalam setiap perjalanan membaca</p>
       
-      <img src="asset/OWNER.png" alt="">
+      <div class="d-flex">
+      <img src="asset/OWNER.png" alt="" class="owner">
+      <p>Pembuat Pustaka</p>
+      </div>
+      
     </div>
     <div class="col-md-6">
-      <img src="asset/botak-nuklis-tentang.png" alt="">
+      <img src="asset/botak-nuklis-tentang.png" alt="" class="images-tentang">
     </div>
+    </div>
+   
+<!-- kelebihan start -->
+    <div class="kelebihan row">
+      <h2>Lebih dari Sekadar Buku, <br>
+      Ini adalah Petualangan Membaca yang Interaktif</h2>
+      <div class="col-md-3">
+      <i class="bi bi-journals"></i>
+        <h5>Koleksi Buku Lengkap</h5>
+        <p>Temukan jutaan judul buku dari berbagai genre, mulai dari fiksi hingga non-fiksi, semua tersedia dalam genggaman Anda</p>
+      </div>
+
+
+      <div class="col-md-3">
+      <i class="bi bi-people-fill"></i>
+        <h5>Akses 24/7</h5>
+        <p>Nikmati kebebasan membaca kapan saja dan di mana saja, tanpa perlu khawatir tentang jam buka perpustakaan</p>
+      </div>
+
+
+      <div class="col-md-3">
+      <i class="bi bi-cash-stack"></i>
+        <h5>Pinjam Buku Gratis</h5>
+        <p>Pinjam buku favorit Anda secara gratis dan nikmati tanpa batas waktu</p>
+      </div>
+
+
+      <div class="col-md-3">
+      <i class="bi bi-cash-stack"></i>
+        <h5>Rekomendasi Buku</h5>
+        <p>Dapatkan rekomendasi buku yang sesuai dengan minat Anda, sehingga Anda tidak akan pernah kehabisan bacaan</p>
+      </div>
+    </div>
+    <!-- kelebihan end -->
+    <!-- koleksi starT -->
+     <div class="row" id="koleksi">
+        <div class="col-md-6">
+          <h3>Jelajahi koleksi kami dan temukan buku impian Anda!</h3>
+          <p> Jangan lewatkan kesempatan untuk meminjam buku terbaru dari penulis favorit Anda. Klik di sini untuk mulai menjelajah!</p>
+
+          <div class="koleksi-btn">
+            <a href="#">Pinjam Buku Sekarang</a>
+            <a href="#" class="btn-login">Login Sekarang</a>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <img src="asset/patung-koleksi.png" alt="">
+        </div>
+     </div>
+    <!-- koleksi end -->
+
+    
    </div>
   <!-- Tentang Kami End -->
+
+  <!-- perpustakaan start -->
+   <div class="perpustakaan">
+    <div class="row">
+      <div class="col-md-6">
+        <h3>Perpustakaan <br> Terbaik</h3>
+      </div>
+      <div class="col-md-6">
+        <div class="lokasi-perpus">
+          <a href="#">
+          <p>Perpustakaan Nasional Republik Indonesia </p>
+          </a>
+          <span>Jakarta</span>
+        </div>
+
+        <div class="lokasi-perpus">
+          <a href="#">
+          <p>Perpustakaan Universitas Indonesia</p>
+          </a>
+          <span>Jakarta</span>
+        </div>
+
+        <div class="lokasi-perpus">
+          <a href="#">
+          <p>Perpustakaan Kota Bandung</p>
+          </a>
+          <span>Bandung</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- blog -->
+     <div class="blog row">
+      <h3>Blog</h3>
+      <div class="col-md-6">
+        <a href="#">
+        <img src="asset/bembeng-blog.jpeg" alt="">
+        <h5>Kolaborasi Mahasiswa: Strategi untuk Sukses Akademik</h5>
+        <p>Rekomendasi buku yang dapat membantu mahasiswa mengembangkan keterampilan kolaborasi dalam perkuliahan. Dari teknik komunikasi efektif hingga manajemen tim</p>
+        </a>
+       
+      </div>
+
+      <div class="col-md-6">
+        <a href="#">
+        <img src="asset/cewe.jpeg" alt="">
+        <h5>Bukan hanya bakat: buku untuk membantu Anda percaya diri dan berhasil</h5>
+        <p>Keberhasilan butuh lebih dari sekadar bakat. Temukan buku-buku yang membantu membangun kepercayaan diri dan mengembangkan potensi diri untuk meraih sukses</p>
+        </a>
+       
+      </div>
+     </div>
+   </div>
+  <!-- perpustakaan end -->
+
+  <!-- best-seller start -->
+   <div class="best-seller row">
+    <div class="col-md-4">
+      <a href="#">
+
+        <img src="asset/tereliye_best.png" alt="">
+      </a>
+    </div>
+
+    <div class="col-md-4">
+      <h3>3 Buku Terlaris</h3>
+      <a href="">
+      <img src="asset/atomic-best.png" alt="">
+      </a>
+    </div>
+
+    <div class="col-md-4">
+      <a href="">
+
+        <img src="asset//potter-best.png" alt="">
+      </a>
+    </div>
+   </div>
+  <!-- best-seller end -->
+
+  <!-- footer start -->
+  <div class="footer row">
+    <div class="col-md-12">
+      <h3>PustakaKita</h3>
+
+      <ul>
+        <li><a href="#">Beranda</a></li>
+        <li><a href="#tentang">Tentang Kami</a></li>
+        <li><a href="#">Koleksi Buku</a></li>
+        <li><a href="#">Blog</a></li>
+      </ul>
+
+      <ul class="social-footer">
+        <li><a href="#">Ig</a></li>
+        <li><a href="#">Yt</a></li>
+        <li><a href="#">Tw</a></li>
+      </ul>
+    </div>
+
+    <div class="col-md-8">
+      <div class="footer-pinjam">
+        <h1>Pinjam Buku Gratis</h1>
+        <a href="#"><i class="bi bi-arrow-up-short"></i></a>
+      </div>
+
+      <div class="footer-copy">
+        <p>© PustakaKita 2024.</p>
+        <a href="#">|Kebijakan Privasi|</a>
+        <a href="#">Syarat dan Ketentuan</a>
+      </div>
+
+      <span>Semua hak cipta dilindungi undang-undang</span>
+    </div>
+    <div class="col-md-4">
+      <p>Berlangganan ke email kita</p>
+      <div class="subs">
+        <p>Email</p>
+        <a href="#">Berlangganan</a>
+      </div>
+    </div>
+  </div>
+  <!-- footer end -->
+
 </div>
 
 
