@@ -211,8 +211,8 @@
 
     <div class="col-md-4">
       <a href="">
-        <img src="asset/potter-best.png" alt="">
 
+        <img src="asset//potter-best.png" alt="">
       </a>
     </div>
    </div>
