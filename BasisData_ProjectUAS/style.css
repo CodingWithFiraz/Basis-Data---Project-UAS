@@ -328,14 +328,98 @@ body {
 
 /* radio button end */
 
-
-
-
-
 /* Komentar end */
 
 
 
+
+
+
+
+/* Login Ipan start */
+
+.wrapper-nav{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    padding: 4rem;
+    
+}
+
+.wrapper-nav-2{
+    background-color: var(--white);
+    padding: 5rem 7rem;
+    border-radius: 100px 0 100px 0;
+    box-shadow: 0px 9px 32px -4px rgba(0,0,0,0.51);
+-webkit-box-shadow: 0px 9px 32px -4px rgba(0,0,0,0.51);
+-moz-box-shadow: 0px 9px 32px -4px rgba(0,0,0,0.51);
+
+}
+
+.wrapper-nav-3{
+    background-color: var(--white);
+    padding: 3rem 8rem;
+    border-radius: 0 100px 0 100px;
+    box-shadow: 0px 9px 32px -4px rgba(0,0,0,0.51);
+-webkit-box-shadow: 0px 9px 32px -4px rgba(0,0,0,0.51);
+-moz-box-shadow: 0px 9px 32px -4px rgba(0,0,0,0.51);
+
+}
+.wrapper-nav-2 h1{
+    font-size: 36px;
+    text-align: center;
+}
+.wrapper-nav-3 h1{
+    font-size: 36px;
+    text-align: center;
+}
+
+.wrapper-nav  ul{
+    list-style: none;
+    
+}
+
+.wrapper-nav  ul li label{
+    margin-top: 0.5rem;
+}
+.wrapper-nav  ul li input{
+    padding-right: 3.8rem;
+    border-radius: 5px;
+    border: none;
+}
+.buton-ipan{
+    background-color: var(--brown);
+    color: white;
+    justify-content: center;
+    padding: 2px 102px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 0.5rem;
+}
+.buton-ipan2{
+    background-color: var(--brown);
+    color: white;
+    justify-content: center;
+    padding: 2px 94px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 0.5rem;
+}
+
+.wrapper-nav p{
+    text-align: center;
+    
+}
+
+
+
+
+
+
+
+
+/* Login Ipan end */
 
 
 

@@ -41,60 +41,78 @@ if(isset($_POST['login'])) {
 
 <!doctype html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Bootstrap demo</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <!-- Google Font -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap"
+        rel="stylesheet">
 
-<!-- Bootstrap Icon -->
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <!-- Bootstrap Icon -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 
-<!-- CSS -->
-<style>
-  <?php include "style.css" ?>
-</style>
+    <!-- CSS -->
+    <style>
+    <?php include "style.css"?>
+    </style>
 
-  </head>
-  <body>  
+</head>
+
+<body>
     <!-- BUNG IPAN -->
+    <div class="wrapper-nav">
 
-    <h1>Login</h1>
-    <p>Welcome back! Please login to your account</p>
+        <div class="wrapper-nav-2">
+            <h1>Login</h1>
+            <p>Selamat datang, silahkan login sekarang juga!</p>
 
-<?php if(isset($error)) :?>
-    <p style="color: red;">Username / password salah!</p>
-<?php endif;?>
+            <?php if(isset($error)) :?>
+            <p style="color: red;">Username / password salah!</p>
+            <?php endif;?>
+            <div wrapper-nav-form>
+                <form action="" method="POST">
+                    <div class="login-form"></div>
+                    <ul>
+                        <li>
+                            <label for="username">Username</label><br>
+                            <input type="text" name="username" id="username" placeholder="Masukkan username">
+                        </li>
+                        <li>
+                            <label for="email">Email</label><br>
+                            <input type="email" name="email" id="email" placeholder="masukkan email">
+                        </li>
+                        <li>
+                            <label for="password">Password</label><br>
+                            <input type="password" name="password" id="password" placeholder="**********">
+                        </li>
 
-<form action="" method="POST">
+                        <li>
 
-<ul>
-  <li>
-      <label for="username">Username</label>
-      <input type="text" name="username" id="username">
-  </li>
-  <li>
-      <label for="email">Email</label>
-      <input type="email" name="email" id="email">
-  </li>
-    <li>
-        <label for="password">Password</label>
-        <input type="password" name="password" id="password">
-    </li>
-    <li><button type="submit" name="login">Login</button></li>
-</ul>
-<p>Pengguna baru? <a href="regist.php">Register</a></p>
-</form>
-    
+                            <button class="buton-ipan" type="submit" name="login">Login</button>
+                        </li>
+                    </ul>
+                    <hr>
+                    <p>Pengguna baru? <a href="regist.php">Register</a></p>
+            </div>
+            </form>
+        </div>
+    </div>
+    </div>
 
 
 
 
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-  </body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
+    </script>
+</body>
+
 </html>
