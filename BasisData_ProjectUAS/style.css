@@ -374,6 +374,10 @@ perbaiki agar semuanya di tengah */
     padding-bottom: 0;
 }
 
+.tentang .row {
+    padding-top: 5rem;
+}
+
 .tentang .owner {
     width: 38%;
 }
