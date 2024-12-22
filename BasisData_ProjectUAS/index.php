@@ -27,23 +27,23 @@
     <h1>PustakaKita</h1>
 
     <ul>
-    <li><a href="#">
+    <li><a href="index.php">
       Beranda
     </a></li>
     <li><a href="#tentang">
       Tentang Kami
     </a></li>
-    <li><a href="#">
+    <li><a href="list_buku2.php">
       Koleksi Buku
     </a></li>
-    <li><a href="#">
+    <li><a href="blog.php">
       Blog
     </a></li>
     </ul>
     
     <div class="icon_nav">
-      <a href="#"><i class="bi bi-book"></i></a>
-      <a href="#" class="btn_icon">Ayo Baca</a>
+      <a href="#best-seller"><i class="bi bi-book"></i></a>
+      <a href="#koleksi" class="btn_icon">Ayo Baca</a>
     </div>
   
     
@@ -57,7 +57,7 @@
     <h1>Membaca Bersama, <br>
     Tumbuh Bersama</h1>
     <p>Kami adalah perpustakaan digital yang berkomitmen untuk memberikan akses mudah dan nyaman bagi semua orang untuk menikmati dunia literasi</p>
-    <a href="#">Pinjam Buku Favoritmu</a>
+    <a href="#koleksi">Pinjam Buku Favoritmu</a>
 
     <hr>
     <div class="bottom-jumbo">
@@ -125,8 +125,8 @@
           <p> Jangan lewatkan kesempatan untuk meminjam buku terbaru dari penulis favorit Anda. Klik di sini untuk mulai menjelajah!</p>
 
           <div class="koleksi-btn">
-            <a href="#">Pinjam Buku Sekarang</a>
-            <a href="#" class="btn-login">Login Sekarang</a>
+            <a href="list_buku.php">Pinjam Buku Sekarang</a>
+            <a href="login.php" class="btn-login">Login Sekarang</a>
           </div>
         </div>
         <div class="col-md-6">
@@ -195,7 +195,7 @@
 
   <!-- best-seller start -->
    <div class="best-seller row">
-    <div class="col-md-4">
+    <div class="col-md-4"  id="best-seller">
       <a href="#">
 
         <img src="asset/tereliye_best.png" alt="">

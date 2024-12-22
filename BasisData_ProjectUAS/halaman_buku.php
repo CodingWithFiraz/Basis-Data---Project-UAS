@@ -19,12 +19,40 @@
 </style>
 
   </head>
+
+ 
+
   <body>
     <!-- BUNG ABHQORI -->
 
+    <?Php 
+            if(isset( $_GET["id"])){
+                $id = $_GET["id"];
+                include("connect.php");
+                $sql = "SELECT * FROM book WHERE id=$id";
+                $result = mysqli_query($conn,$sql);
+                $row = mysqli_fetch_array($result);
+                ?>
 
+    <div class="flex bg-[#8B5DFF] rounded-md py-5 px-7">
+                <img src="img/<?php echo $row["image"]; ?>" alt="" class="w-48">
+                <div class="px-10">
+                <p class="text-4xl font-semibold mb-4"><?php echo $row["title"]; ?></p>
+                
+                <p class="text-xl underline text-slate-200 underline-offset-4 font-medium"><?php echo $row["author"]; ?></p>
+                <h2 class="flex text-xl mt-8 text-slate-200 font-medium"> <p class="text-yellow-300"> <?php echo $row["type"]; ?></p></h2>
+                
+                
+                <p class="text-md font-normal mt-3"><?php echo $row["description"]; ?></p>
+                
+                </div>
+                </div>
+                
+               
 
-    <h1>Hello, world!</h1>
+                <?php
+            }
+             ?>
 
 
 
