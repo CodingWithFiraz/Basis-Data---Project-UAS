@@ -201,6 +201,66 @@ body {
 
 
 
+.komentar-ipan {
+    background-color: var(--white);
+    margin-bottom: 25rem;
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+
+.komentar-flex{
+    padding: 2rem 40rem;
+}
+.komentar-ipan .komentator {
+    width: 6rem;
+    left: 13rem;
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+}
+.komentar-ipan .komentator:hover {
+    width: 6rem;
+    left: 13rem;
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.5s ease-in-out;
+}
+
+
+.komentar-ipan{
+    font-size: 0.95rem;
+}
+
+.komentar-ipan {
+    margin-top: 2rem;
+    display: flex;
+    position: relative;
+}
+
+.komentar-ipan p {
+    margin-left: 5rem;
+    margin-top: 3rem;
+    font-size: 0.8rem;
+}
+.komentar-ipan h2 {
+    margin-top: 1.7rem;
+    font-size: 0.95rem;
+    margin-left: 27rem;
+    font-weight: 600;
+}
+/* Komentar end */
+
+
+
+
+
 
 
 

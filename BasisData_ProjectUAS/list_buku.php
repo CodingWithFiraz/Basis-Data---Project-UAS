@@ -26,10 +26,9 @@
 
 <body>
     <!-- BUNG IPAN -->
-
-
-
     <div class="container-fluid">
+
+        <!-- Navbar start -->
         <div class="navbar">
             <h1>PustakaKita</h1>
 
@@ -52,9 +51,11 @@
                 <a href="#"><i class="bi bi-book"></i></a>
                 <a href="#" class="btn_icon">Ayo Baca</a>
             </div>
-
-
         </div>
+        <!-- Navbar end -->
+
+
+
 
         <div class="buku-navbar">
             <h1>Daftar buku-buku</h1>
@@ -145,6 +146,7 @@
 
 
         </div>
+        <!-- page 7 -->
         <div class="buku-list row">
             <div class="col-md-4">
                 <img src="asset/Buku-Perspektif-Pendidikan-dalam-Bingkai_Kurniawan.png" alt="">
@@ -158,7 +160,7 @@
 
             </div>
 
-            <!-- page 5 -->
+            <!-- page 8 -->
 
             <div class="col-md-4">
                 <img src="asset/Misteri-Cinta-Guru-Honorer_Ismiati-Mahmudah.png" alt="">
@@ -172,7 +174,7 @@
 
             </div>
 
-            <!-- page 6 -->
+            <!-- page 9 -->
 
             <div class="col-md-4">
                 <img src="asset/Menanti-Restu-Langit_Makhasin.png" alt="">
@@ -188,6 +190,82 @@
 
 
         </div>
+
+
+
+
+
+        <!-- Komentar orang start-->
+
+
+        <div class="komentar-ipan" id="komentar-ipan">
+            <div class="komentar-flex">
+                <img src="asset/Talk-Ipan.png" alt="" class="komentator">
+                <h2>Ipan Ramadan</h2>
+                <p>Mahasiswa</p>
+                <h2> Dengan koleksi buku yang terus bertambah dan fitur-fitur yang inovatif, kami hadir
+                    untuk
+                    menemani Anda dalam setiap perjalanan membaca</h2>
+            </div>
+        </div>
+
+
+        <!--  Komentar Orang end-->
+
+
+
+
+
+
+
+
+
+
+
+        <!-- Footer start -->
+        <div class="footer row">
+            <div class="col-md-12">
+                <h3>PustakaKita</h3>
+
+                <ul>
+                    <li><a href="#">Beranda</a></li>
+                    <li><a href="#tentang">Tentang Kami</a></li>
+                    <li><a href="#">Koleksi Buku</a></li>
+                    <li><a href="#">Blog</a></li>
+                </ul>
+
+                <ul class="social-footer">
+                    <li><a href="#">Ig</a></li>
+                    <li><a href="#">Yt</a></li>
+                    <li><a href="#">Tw</a></li>
+                </ul>
+            </div>
+
+            <div class="col-md-8">
+                <div class="footer-pinjam">
+                    <h1>Pinjam Buku Gratis</h1>
+                    <a href="#"><i class="bi bi-arrow-up-short"></i></a>
+                </div>
+
+                <div class="footer-copy">
+                    <p>© PustakaKita 2024.</p>
+                    <a href="#">|Kebijakan Privasi|</a>
+                    <a href="#">Syarat dan Ketentuan</a>
+                </div>
+
+                <span>Semua hak cipta dilindungi undang-undang</span>
+            </div>
+            <div class="col-md-4">
+                <p>Berlangganan ke email kita</p>
+                <div class="subs">
+                    <p>Email</p>
+                    <a href="#">Berlangganan</a>
+                </div>
+            </div>
+        </div>
+        <!-- Footer end -->
+
+
 
     </div>
 
