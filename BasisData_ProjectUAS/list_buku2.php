@@ -30,31 +30,32 @@
 
 
     <div class="container-fluid">
-        <div class="navbar">
-            <h1>PustakaKita</h1>
+          <!-- Navbar start -->
+  <div class="navbar">
+    <h1>PustakaKita</h1>
 
-            <ul>
-                <li><a href="#">
-                        Beranda
-                    </a></li>
-                <li><a href="#">
-                        Tentang Kami
-                    </a></li>
-                <li><a href="#">
-                        Koleksi Buku
-                    </a></li>
-                <li><a href="#">
-                        Blog
-                    </a></li>
-            </ul>
-
-            <div class="icon_nav">
-                <a href="#"><i class="bi bi-book"></i></a>
-                <a href="#" class="btn_icon">Ayo Baca</a>
-            </div>
-
-
-        </div>
+    <ul>
+    <li><a href="index.php">
+      Beranda
+    </a></li>
+    <li><a href="index.php">
+      Tentang Kami
+    </a></li>
+    <li><a href="list_buku2.php">
+      Koleksi Buku
+    </a></li>
+    <li><a href="blog.php">
+      Blog
+    </a></li>
+    </ul>
+    
+    <div class="icon_nav">
+      <a href="add_book.php"><i class="bi bi-book"></i></a>
+      <a href="#koleksi" class="btn_icon">Ayo Baca</a>
+    </div>
+  
+    
+  </div>
 
         <div class="buku-navbar">
             <h1>Daftar buku-buku</h1>
@@ -75,14 +76,15 @@
                 while ( $row = mysqli_fetch_array($result)) {
                   
                     ?>
-            <div class="col-md-4">
+
+<div class="col-md-4">
                 <img src="asset/<?php echo $row['image']?>" alt="">
                 <div class="buku-para">
                     <h2><?php echo $row["title"]?></h2>
                     <p><?php echo $row["author"]?></p>
                     <a href="#"><?php echo $row["type"]?></a>
-                    <br><br><br><br>
-                    <a href="halaman_buku.php?id=<?php  echo $row["id"]; ?>" class="tambahkan-buku">Tambahkan</a>
+                    <br><br>
+                    <a href="halaman_buku.php?id=<?php  echo $row["id"]; ?>" class="tambahkan-buku card-button">Tambahkan</a>
                 </div>
 
             </div>
@@ -93,8 +95,92 @@
                 ?>
            
 
+           
 
         </div>
+
+        <!-- Komentar orang start-->
+
+
+        <div class="komentar-ipan" id="komentar-ipan">
+            <div class="komentar-flex">
+                <img src="asset/Talk-Ipan.png" alt="" class="komentator">
+                <h2>Ipan Ramadan</h2>
+                <p>Mahasiswa</p>
+                <h2> “Wahh bukunya keren-keren, banyak juga bukunya sehingga gw bisa banyak buku, apalagi yang teknologi
+                    digital.”</h2>
+
+                <!-- Radio -->
+                <div class="radio-input-ipan">
+                    <label>
+                        <input value="value-1" name="value-radio" id="value-1" type="radio" checked="">
+                        <span>1</span>
+                    </label>
+                    <label>
+                        <input value="value-2" name="value-radio" id="value-2" type="radio">
+                        <span>2</span>
+                    </label>
+                    <label>
+                        <input value="value-3" name="value-radio" id="value-3" type="radio">
+                        <span>3</span>
+                    </label>
+                    <label>
+                        <input value="value-3" name="value-radio" id="value-3" type="radio">
+                        <span>4</span>
+                    </label>
+                    <span class="selection"></span>
+                </div>
+                <!-- Radio -->
+            </div>
+        </div>
+
+
+        <!--  Komentar Orang end-->
+
+
+       <!-- footer start -->
+  <div class="footer row">
+    <div class="col-md-12">
+      <h3>PustakaKita</h3>
+
+      <ul>
+        <li><a href="index.php">Beranda</a></li>
+        <li><a href="index.php">Tentang Kami</a></li>
+        <li><a href="list_buku2.php">Koleksi Buku</a></li>
+        <li><a href="blog.php">Blog</a></li>
+      </ul>
+
+      <ul class="social-footer">
+        <li><a href="#">Ig</a></li>
+        <li><a href="#">Yt</a></li>
+        <li><a href="#">Tw</a></li>
+      </ul>
+    </div>
+
+    <div class="col-md-8">
+      <div class="footer-pinjam">
+        <h1>Pinjam Buku Gratis</h1>
+        <a href="#"><i class="bi bi-arrow-up-short"></i></a>
+      </div>
+
+      <div class="footer-copy">
+        <p>© PustakaKita 2024.</p>
+        <a href="#">|Kebijakan Privasi|</a>
+        <a href="#">Syarat dan Ketentuan</a>
+      </div>
+
+      <span>Semua hak cipta dilindungi undang-undang</span>
+    </div>
+    <div class="col-md-4">
+      <p>Berlangganan ke email kita</p>
+      <div class="subs">
+        <p>Email</p>
+        <a href="#">Berlangganan</a>
+      </div>
+    </div>
+  </div>
+  <!-- footer end -->
+
 
     </div>
 
@@ -105,3 +191,5 @@
 </body>
 
 </html>
+
+

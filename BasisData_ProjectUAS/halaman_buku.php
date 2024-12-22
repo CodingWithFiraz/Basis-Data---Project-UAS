@@ -24,6 +24,34 @@
 
   <body>
     <!-- BUNG ABHQORI -->
+    <div class="container-fluid">
+  <!-- Navbar start -->
+    <!-- Navbar start -->
+    <div class="navbar">
+    <h1>PustakaKita</h1>
+
+    <ul>
+    <li><a href="index.php">
+      Beranda
+    </a></li>
+    <li><a href="index.php">
+      Tentang Kami
+    </a></li>
+    <li><a href="list_buku2.php">
+      Koleksi Buku
+    </a></li>
+    <li><a href="blog.php">
+      Blog
+    </a></li>
+    </ul>
+    
+    <div class="icon_nav">
+      <a href="add_book.php"><i class="bi bi-book"></i></a>
+      <a href="#koleksi" class="btn_icon">Ayo Baca</a>
+    </div>
+  
+    
+  </div>
 
     <?Php 
             if(isset( $_GET["id"])){
@@ -34,18 +62,35 @@
                 $row = mysqli_fetch_array($result);
                 ?>
 
-    <div class="flex bg-[#8B5DFF] rounded-md py-5 px-7">
-                <img src="img/<?php echo $row["image"]; ?>" alt="" class="w-48">
-                <div class="px-10">
-                <p class="text-4xl font-semibold mb-4"><?php echo $row["title"]; ?></p>
+    <div class="container-book">
+              <div class="dek-buku row">
+                <div class="col-md-4">
+                <img src="asset/<?php echo $row["image"]; ?>" alt="" class="">
+                </div>
+
+                <div class="col-md-8">
+                <p class="title_book"><?php echo $row["title"]; ?></p>
+
+                <span class="stock">
+                  stok buku
+                </span>
+                <div class="stock-number">
+                  <span>99</span>
+                  <a href="#">Pinjam buku</a>
+                </div>
+
+
+                <hr class="line_book">
+                <span class="author">Penulis: <p class=""><?php echo $row["author"]; ?></p></span>
+                <span class="author">Kategori: <p class=""> <?php echo $row["type"]; ?></p></span>
                 
-                <p class="text-xl underline text-slate-200 underline-offset-4 font-medium"><?php echo $row["author"]; ?></p>
-                <h2 class="flex text-xl mt-8 text-slate-200 font-medium"> <p class="text-yellow-300"> <?php echo $row["type"]; ?></p></h2>
-                
-                
-                <p class="text-md font-normal mt-3"><?php echo $row["description"]; ?></p>
+                <hr class="line_book2">
+                <h6 class="title_D">Deskripsi</h6>
+                <p class=""><?php echo $row["description"]; ?></p>
                 
                 </div>
+              </div>
+              
                 </div>
                 
                
@@ -53,8 +98,48 @@
                 <?php
             }
              ?>
+ <!-- footer start -->
+ <div class="footer row">
+    <div class="col-md-12">
+      <h3>PustakaKita</h3>
 
+      <ul>
+        <li><a href="index.php">Beranda</a></li>
+        <li><a href="index.php">Tentang Kami</a></li>
+        <li><a href="list_buku2.php">Koleksi Buku</a></li>
+        <li><a href="blog.php">Blog</a></li>
+      </ul>
 
+      <ul class="social-footer">
+        <li><a href="#">Ig</a></li>
+        <li><a href="#">Yt</a></li>
+        <li><a href="#">Tw</a></li>
+      </ul>
+    </div>
+
+    <div class="col-md-8">
+      <div class="footer-pinjam">
+        <h1>Pinjam Buku Gratis</h1>
+        <a href="#"><i class="bi bi-arrow-up-short"></i></a>
+      </div>
+
+      <div class="footer-copy">
+        <p>© PustakaKita 2024.</p>
+        <a href="#">|Kebijakan Privasi|</a>
+        <a href="#">Syarat dan Ketentuan</a>
+      </div>
+
+      <span>Semua hak cipta dilindungi undang-undang</span>
+    </div>
+    <div class="col-md-4">
+      <p>Berlangganan ke email kita</p>
+      <div class="subs">
+        <p>Email</p>
+        <a href="#">Berlangganan</a>
+      </div>
+    </div>
+  </div>
+  <!-- footer end -->
 
 
 

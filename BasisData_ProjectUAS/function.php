@@ -74,7 +74,7 @@ if(isset($_POST['create'])) {
     if(mysqli_query($conn, $sql)) {
         session_start();
         $_SESSION["create"] = "Book Added Successfully";
-        header("Location: list_buku.php");
+        header("Location: list_buku2.php");
     } else {
         die("something went wrong");
     }

@@ -42,7 +42,7 @@
     </ul>
     
     <div class="icon_nav">
-      <a href="#best-seller"><i class="bi bi-book"></i></a>
+      <a href="add_book.php"><i class="bi bi-book"></i></a>
       <a href="#koleksi" class="btn_icon">Ayo Baca</a>
     </div>
   
@@ -90,32 +90,68 @@
     <div class="kelebihan row">
       <h2>Lebih dari Sekadar Buku, <br>
       Ini adalah Petualangan Membaca yang Interaktif</h2>
-      <div class="col-md-3">
-      <i class="bi bi-journals"></i>
-        <h5>Koleksi Buku Lengkap</h5>
-        <p>Temukan jutaan judul buku dari berbagai genre, mulai dari fiksi hingga non-fiksi, semua tersedia dalam genggaman Anda</p>
+      <!-- card1 -->
+      <div class="parent col-md-3">
+  <div class="card">
+      <div class="content-box">
+          <span class="card-title">Koleksi Buku Lengkap</span>
+          <p class="card-content">
+          Temukan jutaan judul buku dari berbagai genre, mulai dari fiksi hingga non-fiksi, semua tersedia dalam genggaman Anda 
+          </p>
       </div>
+      <div class="date-box">
+          <i class="bi bi-journals"></i>
+      </div>
+  </div>
+</div>
 
-
-      <div class="col-md-3">
+  <!-- card2 -->
+  <div class="parent col-md-3">
+  <div class="card">
+      <div class="content-box">
+          <span class="card-title">Akses 24/7</span>
+          <p class="card-content">
+          Nikmati kebebasan membaca kapan saja dan di mana saja, tanpa perlu khawatir tentang jam buka perpustakaan
+          </p>
+      </div>
+      <div class="date-box">
       <i class="bi bi-people-fill"></i>
-        <h5>Akses 24/7</h5>
-        <p>Nikmati kebebasan membaca kapan saja dan di mana saja, tanpa perlu khawatir tentang jam buka perpustakaan</p>
       </div>
+  </div>
+</div>
 
 
-      <div class="col-md-3">
+  <!-- card3 -->
+  <div class="parent col-md-3">
+  <div class="card">
+      <div class="content-box">
+          <span class="card-title">Pinjam Buku Gratis</span>
+          <p class="card-content">
+          Pinjam buku favorit Anda secara gratis dan nikmati tanpa batas waktu 
+          </p>
+      </div>
+      <div class="date-box">
       <i class="bi bi-cash-stack"></i>
-        <h5>Pinjam Buku Gratis</h5>
-        <p>Pinjam buku favorit Anda secara gratis dan nikmati tanpa batas waktu</p>
       </div>
+  </div>
+</div>
 
 
-      <div class="col-md-3">
-      <i class="bi bi-cash-stack"></i>
-        <h5>Rekomendasi Buku</h5>
-        <p>Dapatkan rekomendasi buku yang sesuai dengan minat Anda, sehingga Anda tidak akan pernah kehabisan bacaan</p>
+  <!-- card4 -->
+  <div class="parent col-md-3">
+  <div class="card">
+      <div class="content-box">
+          <span class="card-title">Rekomendasi Buku</span>
+          <p class="card-content">
+          Dapatkan rekomendasi buku yang sesuai dengan minat Anda, sehingga Anda tidak akan pernah kehabisan bacaan
+          </p>
       </div>
+      <div class="date-box">
+      <i class="bi bi-journal-bookmark-fill"></i>
+      </div>
+  </div>
+</div>
+
     </div>
     <!-- kelebihan end -->
     <!-- koleksi starT -->
@@ -125,7 +161,7 @@
           <p> Jangan lewatkan kesempatan untuk meminjam buku terbaru dari penulis favorit Anda. Klik di sini untuk mulai menjelajah!</p>
 
           <div class="koleksi-btn">
-            <a href="list_buku.php">Pinjam Buku Sekarang</a>
+            <a href="list_buku2.php">Pinjam Buku Sekarang</a>
             <a href="login.php" class="btn-login">Login Sekarang</a>
           </div>
         </div>
@@ -183,7 +219,7 @@
 
       <div class="col-md-6">
         <a href="#">
-        <img src="asset/cewe.jpeg" alt="">
+        <img src="asset/keluarga-blog.jpeg" alt="">
         <h5>Bukan hanya bakat: buku untuk membantu Anda percaya diri dan berhasil</h5>
         <p>Keberhasilan butuh lebih dari sekadar bakat. Temukan buku-buku yang membantu membangun kepercayaan diri dan mengembangkan potensi diri untuk meraih sukses</p>
         </a>
@@ -195,26 +231,64 @@
 
   <!-- best-seller start -->
    <div class="best-seller row">
+    <!-- card1 -->
     <div class="col-md-4"  id="best-seller">
-      <a href="#">
+    <div class="flip-card col-md-4" id="best-seller">
+    <div class="flip-card-inner">
+        <div class="flip-card-front">
+        <a href="#">
 
         <img src="asset/tereliye_best.png" alt="">
-      </a>
+        </a>
+        </div>
+        <div class="flip-card-back">
+            <p class="title">Bumi</p>
+            <p>Tere Liye</p>
+        </div>
+    </div>
+</div>
     </div>
 
-    <div class="col-md-4">
-      <h3>3 Buku Terlaris</h3>
-      <a href="">
-      <img src="asset/atomic-best.png" alt="">
-      </a>
+
+    <!-- card2 -->
+    <div class="col-md-4" >
+    <div class="flip-card col-md-4" id="best-seller">
+    <div class="flip-card-inner">
+    <h3>3 Buku Terlaris</h3>
+        <div class="flip-card-front">
+        <a href="#">
+       
+        <img src="asset/atomic-best.png" alt="">
+        </a>
+        </div>
+        <div class="flip-card-back">
+            <p class="title">Atomic Habits</p>
+            <p>James Clear</p>
+        </div>
+    </div>
+</div>
     </div>
 
+
+
+    <!-- card3 -->
     <div class="col-md-4">
-      <a href="">
+    <div class="flip-card col-md-4" id="best-seller">
+    <div class="flip-card-inner">
+        <div class="flip-card-front">
+        <a href="#">
 
         <img src="asset//potter-best.png" alt="">
-      </a>
+        </a>
+        </div>
+        <div class="flip-card-back">
+            <p class="title">Harry Potter and The Deathly Hallows</p>
+            <p>J.K Rowling</p>
+        </div>
     </div>
+</div>
+    </div>
+
    </div>
   <!-- best-seller end -->
 
@@ -226,8 +300,8 @@
       <ul>
         <li><a href="#">Beranda</a></li>
         <li><a href="#tentang">Tentang Kami</a></li>
-        <li><a href="#">Koleksi Buku</a></li>
-        <li><a href="#">Blog</a></li>
+        <li><a href="list_buku2.php">Koleksi Buku</a></li>
+        <li><a href="blog.php">Blog</a></li>
       </ul>
 
       <ul class="social-footer">

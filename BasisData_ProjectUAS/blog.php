@@ -34,13 +34,13 @@
             <h1>PustakaKita</h1>
 
             <ul>
-                <li><a href="#">
+                <li><a href="index.php">
                         Beranda
                     </a></li>
-                <li><a href="#">
+                <li><a href="index.php">
                         Tentang Kami
                     </a></li>
-                <li><a href="#">
+                <li><a href="list_buku2.php">
                         Koleksi Buku
                     </a></li>
                 <li><a href="#">
@@ -74,7 +74,7 @@
             </div>
             <!-- page 2 -->
             <div class="col-md-4">
-                <img src="asset/orang-baca-blog.jpeg" alt="">
+                <img src="asset/buku-blog.jpeg" alt="">
                 <div class="blog-para">
                     <h2>Kisah cinta untuk setiap selera: lucu, aneh, dalam, tragis</h2>
                     <p>Beragam kisah cinta untuk dinikmati — dari yang lucu, aneh, mendalam, hingga tragis. Temukan
@@ -86,7 +86,7 @@
 
             </div>
             <div class="col-md-4">
-                <img src="asset/buku-blog.jpeg" alt="">
+                <img src="asset/cewe.jpeg" alt="">
                 <div class="blog-para">
                     <h2>Bukan hanya bakat: buku untuk membantu Anda percaya diri dan berhasil</h2>
                     <p>Membaca bersama mempererat hubungan anak dan orang tua. Temukan buku-buku seru dan edukatif yang
@@ -101,7 +101,7 @@
         <!-- page 4 -->
         <div class="blog-list row">
             <div class="col-md-4">
-                <img src="asset/cewe.jpeg" alt="">
+                <img src="asset/bembeng-blog.jpeg" alt="">
                 <div class="blog-para">
                     <h2>Kolaborasi Mahasiswa: Strategi untuk Sukses Akademik</h2>
                     <p>Merekomendasi buku yang dapat membantu mahasiswa mengembangkan keterampilan kolaborasi dalam
@@ -114,7 +114,7 @@
             <!-- page 5 -->
 
             <div class="col-md-4">
-                <img src="asset/bembeng-blog.jpeg" alt="">
+                <img src="asset/orang-baca-blog.jpeg" alt="">
                 <div class="blog-para">
                     <h2>Buku sunyi: Apa Itu dan Bagaimana Cara Membacanya</h2>
                     <p>temukan cara membaca buku jenis ini dengan lebih mendalam dan menikmati pengalaman literasi yang
@@ -139,6 +139,49 @@
 
 
         </div>
+
+         <!-- footer start -->
+  <div class="footer row">
+    <div class="col-md-12">
+      <h3>PustakaKita</h3>
+
+      <ul>
+        <li><a href="index.php">Beranda</a></li>
+        <li><a href="index.php">Tentang Kami</a></li>
+        <li><a href="list_buku2.php">Koleksi Buku</a></li>
+        <li><a href="blog.php">Blog</a></li>
+      </ul>
+
+      <ul class="social-footer">
+        <li><a href="#">Ig</a></li>
+        <li><a href="#">Yt</a></li>
+        <li><a href="#">Tw</a></li>
+      </ul>
+    </div>
+
+    <div class="col-md-8">
+      <div class="footer-pinjam">
+        <h1>Pinjam Buku Gratis</h1>
+        <a href="#"><i class="bi bi-arrow-up-short"></i></a>
+      </div>
+
+      <div class="footer-copy">
+        <p>© PustakaKita 2024.</p>
+        <a href="#">|Kebijakan Privasi|</a>
+        <a href="#">Syarat dan Ketentuan</a>
+      </div>
+
+      <span>Semua hak cipta dilindungi undang-undang</span>
+    </div>
+    <div class="col-md-4">
+      <p>Berlangganan ke email kita</p>
+      <div class="subs">
+        <p>Email</p>
+        <a href="#">Berlangganan</a>
+      </div>
+    </div>
+  </div>
+  <!-- footer end -->
 
     </div>
 

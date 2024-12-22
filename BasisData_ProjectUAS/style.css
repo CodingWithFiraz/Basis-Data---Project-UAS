@@ -103,24 +103,33 @@ body {
 
 
 .buku-list {
-    padding: 2rem 20rem;
+    padding: 2rem 15rem;
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 30px;
-    flex-wrap: nowrap;
-    padding-bottom: 0rem;
+    flex-wrap: wrap;
+    padding-bottom: 2rem;
 }
 
 .buku-list .col-md-4 {
-    height: 28rem;
+    height: 25rem;
     background-color: var(--white);
-    padding: 10px;
+    padding:10px;
+    padding-bottom: 2rem;
+    position: relative;
+    width: 30%;
     display: flex;
     flex-direction: column; 
     align-items: center;
     text-align: center;
+    transition: 1s ease;
+    justify-content: center;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.buku-list .col-md-4:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.50);
 }
 
 .buku-list .col-md-4 h2 {
@@ -128,26 +137,16 @@ body {
     margin-top: 1.5rem;
     
 }
-.buku-list .col-md-4 h2:hover {
-    font-size: 1.25rem;
-    margin-top: 1.5rem;
-    color: var(--brown);
-    transition: all 0.5s ease-in-out;
-    
-}
+
 
 .buku-list .col-md-4 img {
     width: 50%;
-    
+    height: 150px;
+    object-fit: cover;
     
 }
 
-.buku-list .col-md-4 img:hover {
-    width: 55%;
-    box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    transition: all 0.5s ease-in-out;
-    
-}
+
 
 .buku-list .col-md-4 .buku-para {
     padding-top: 0.1rem;
@@ -157,11 +156,7 @@ body {
     font-size: 0.9rem;
 }
 
-.buku-list .col-md-4 p:hover {
-    font-size: 1rem;
-    color: var(--brown);
-    transition: all 0.5s ease-in-out;
-}
+
 
 .buku-list .col-md-4 a {
     color: var(--brown);
@@ -170,32 +165,17 @@ body {
     font-size: 1rem;
 }
 
-.buku-list .col-md-4 a:hover {
-    color: var(--brown);
-    font-weight: 700;
-    font-size: 1.2rem;
-    text-decoration: none;
-    transition: all 0.5s ease-in-out;
-}
+
 
 .buku-list .col-md-4 .tambahkan-buku{
     color: var(--black);
     font-weight: 500;
     text-decoration: none;
-    border: 2px solid ;
+    border: 1.5px solid ;
     padding: 4px 5px;
     border-radius: 5px;
 }
 
-.buku-list .col-md-4 .tambahkan-buku:hover{
-    background-color: var(--brown);
-    color: var(--white);
-    padding: 4px 15px;
-    border: 2px solid ;
-    transition: all 0.5s ease-in-out;
-    font-weight: 555;
-    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
-}
 
 
 
@@ -219,10 +199,6 @@ body {
     
 }
 
-
-.komentar-flex{
-    padding: 2rem 20rem;
-}
 .komentar-ipan .komentator {
     width: 6rem;
     left: 21.5rem;
@@ -554,8 +530,6 @@ perbaiki agar semuanya di tengah */
 }
 
 .kelebihan .col-md-3 {
-    background-color: var(--white);
-    padding: 1.3rem;
     margin-top: 1rem;
     border-radius: 5px;
     width: 23%;
@@ -885,7 +859,7 @@ perbaiki agar semuanya di tengah */
 }
 
 .blog-list .col-md-4 .blog-para{
-padding-left: 1rem;
+    padding-left: 1rem;
 }
 
 .blog-list .col-md-4 {
@@ -908,5 +882,293 @@ padding-left: 1rem;
 
 
 /* Hisyam punya start */
+.container-book {
+    width: 100%;
+    min-height: 100vh;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+}
 
+.dek-buku {
+    padding: 10rem 10rem;
+    padding-top: 13rem;
+    background-color: var(--white);
+}
+.title_book {
+    font-size: 2.5rem;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
+.stock {
+    font-size: 1.2rem;
+    color: var(--brown);
+    text-transform: capitalize;
+}
+
+.stock-number {
+    margin-top: 0.7rem;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    
+}
+
+.stock-number span {
+    padding: 0.3rem 1rem;
+    background-color: var(--cream);
+}
+
+.stock-number a {
+    padding: 0.3rem 1rem;
+    border: 1.5px solid var(--black);
+    border-radius: 5px;
+    color: var(--black);
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.stock-number a:hover {
+    background-color: var(--black);
+    color: var(--white);
+}
+
+.line_book {
+    margin-top: 1.5rem;
+    border: 1px solid var(--black);
+}
+
+.author {
+    display: flex;
+    gap: 10px;
+    font-weight: 500;
+    
+}
+
+.author p {
+    font-weight: normal;
+    margin: 0;
+}
+
+.line_book2 {
+    margin-top:1.2rem;
+    border: 1px solid var(--black);
+}
+
+.title_D {
+    font-size: 1.4rem;
+
+}
+
+.dek-buku .col-md-4 {
+    overflow: hidden;
+    border-radius: 5px;
+}
+
+.dek-buku .col-md-4 img {
+    width: 100%;
+    padding-top: 1rem;
+    transition: 1s ease;
+}
+
+.dek-buku .col-md-4 img:hover {
+    transform: scale(1.1);
+}
 /* Hisyam punya end */
+
+
+
+
+
+
+
+
+/* ui verse start */
+/* From Uiverse.io by Smit-Prajapati */ 
+.parent {
+    width: 300px;
+    padding: 0;
+    perspective: 1000px;
+  }
+  
+  .card {
+    padding-top: 50px;
+    /* border-radius: 10px; */
+    border: 3px solid rgb(255, 255, 255);
+    transform-style: preserve-3d;
+    background: linear-gradient(135deg,#0000 18.75%,#f3f3f3 0 31.25%,#0000 0),
+        repeating-linear-gradient(45deg,#f3f3f3 -6.25% 6.25%,#D8D2C2 0 18.75%);
+    background-size: 60px 60px;
+    background-position: 0 0, 0 0;
+    background-color: var(--black);
+    width: 100%;
+    box-shadow: rgba(142, 142, 142, 0.3) 0px 30px 30px -10px;
+    transition: all 0.5s ease-in-out;
+  }
+  
+  .card:hover {
+    background-position: -100px 100px, -100px 100px;
+    transform: rotate3d(0.5, 1, 0, 30deg);
+  }
+  
+  .content-box {
+    background: var(--white);
+    /* border-radius: 10px 100px 10px 10px; */
+    transition: all 0.5s ease-in-out;
+    padding: 60px 25px 25px 25px;
+    height: 300px;
+    transform-style: preserve-3d;
+  }
+  
+  .content-box .card-title {
+    display: inline-block;
+    color: var(--black);
+    font-size: 25px;
+    font-weight: 900;
+    transition: all 0.5s ease-in-out;
+    transform: translate3d(0px, 0px, 50px);
+  }
+  
+  .content-box .card-title:hover {
+    transform: translate3d(0px, 0px, 60px);
+  }
+  
+  .content-box .card-content {
+    margin-top: 10px;
+    font-size: 12px;
+    font-weight: 700;
+    color: var(--black);
+    transition: all 0.5s ease-in-out;
+    transform: translate3d(0px, 0px, 30px);
+  }
+  
+  .content-box .card-content:hover {
+    transform: translate3d(0px, 0px, 60px);
+  }
+  
+  
+  .content-box .see-more:hover {
+    transform: translate3d(0px, 0px, 60px);
+  }
+  
+  .date-box {
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    height: 60px;
+    width: 60px;
+    /* border-radius: 10px; */
+    padding: 10px;
+    transform: translate3d(0px, 0px, 80px);
+  }
+  
+  .date-box span {
+    display: block;
+    text-align: center;
+  }
+  
+  .date-box .month {
+    color: rgb(4, 193, 250);
+    font-size: 9px;
+    font-weight: 700;
+  }
+  
+  .date-box .date {
+    font-size: 20px;
+    font-weight: 900;
+    color: rgb(4, 193, 250);
+  }
+
+
+
+
+
+
+  /* flip */
+  /* From Uiverse.io by joe-watson-sbf */ 
+.flip-card {
+    background-color: transparent;
+    width: 290px;
+    height: 370px;
+    object-fit: cover;
+    perspective: 1000px;
+    font-family: sans-serif;
+  }
+  
+  .title {
+    font-size: 1.5em;
+    font-weight: 900;
+    text-align: center;
+    margin: 0;
+  }
+  
+  .flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+  }
+  
+  .flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+  }
+  
+  .flip-card-front, .flip-card-back {
+    box-shadow: 0 8px 14px 0 rgba(0,0,0,0.2);
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    border: 1px solid var(--white);
+    border-radius: 1rem;
+  }
+  
+  .flip-card-front {
+   width: 100%;
+   height: 100%;
+  }
+
+  .flip-card-front a, .flip-card-front img {
+    height: 100%;
+    height: 100%;
+  }
+  
+  .flip-card-back {
+    background: linear-gradient(120deg, var(--white) 30%, var(--cream) 88%,
+       var(--cream) 40%, var(--cream) 78%);
+    color: var(--black);
+    transform: rotateY(180deg);
+  }
+
+
+  /* slide */
+  .card-button {
+    transform: translate(-50%, 125%);
+    width: 60%;
+    font-size: 1rem;
+    padding: .5rem 1rem;
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    opacity: 0;
+    transition: 0.3s ease-out;
+   }
+
+   .buku-list .col-md-4:hover .card-button {
+    transform: translate(-50%, -60%);
+    opacity: 1;
+   }
+
+   .card-button:hover {
+    background-color: var(--cream);
+   }
+/* ui verse end */
