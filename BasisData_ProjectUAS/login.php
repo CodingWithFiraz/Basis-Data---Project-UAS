@@ -1,3 +1,44 @@
+<?php
+
+require 'function.php';
+
+if(isset($_POST['login'])) {
+
+    $username = $_POST['username'];
+    $email = $_POST['email'];
+    $password = $_POST['password'];
+
+    $result = mysqli_query($conn, "SELECT * FROM users WHERE username = '$username'");
+
+    // cek username
+    if(mysqli_num_rows($result)=== 1) {
+        //cek apakah ada username di tabel
+
+        $_SESSION['username'] = $username;
+        header("Location: index.php");
+
+        // cek password
+        // $row = mysqli_fetch_assoc($result);
+        //mengambil data dari conn
+
+
+        // if(password_verify($password, $row['password'])) {
+            //indikatornya ada 2 (pass yang belum diacak, yang sudah diacak)
+            // header("Location : index.php");
+            //jika berhasil maka akan masuk ke menu utama
+        //     exit;
+        // };
+        //password_verify digunakan untuk mencocokan apakah data yang sudah di enkripsi sama dengan teks nya
+    } 
+
+    $error = true;
+    
+}
+
+?>
+
+
+
 <!doctype html>
 <html lang="en">
   <head>
@@ -19,16 +60,36 @@
 </style>
 
   </head>
-  <body>
+  <body>  
     <!-- BUNG IPAN -->
 
+    <h1>Login</h1>
+    <p>Welcome back! Please login to your account</p>
 
+<?php if(isset($error)) :?>
+    <p style="color: red;">Username / password salah!</p>
+<?php endif;?>
 
-    <h1>Hello, world!</h1>
+<form action="" method="POST">
 
-
-
-
+<ul>
+  <li>
+      <label for="username">Username</label>
+      <input type="text" name="username" id="username">
+  </li>
+  <li>
+      <label for="email">Email</label>
+      <input type="email" name="email" id="email">
+  </li>
+    <li>
+        <label for="password">Password</label>
+        <input type="password" name="password" id="password">
+    </li>
+    <li><button type="submit" name="login">Login</button></li>
+</ul>
+<p>Pengguna baru? <a href="regist.php">Register</a></p>
+</form>
+    
 
 
 

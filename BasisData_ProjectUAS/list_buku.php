@@ -203,9 +203,8 @@
                 <img src="asset/Talk-Ipan.png" alt="" class="komentator">
                 <h2>Ipan Ramadan</h2>
                 <p>Mahasiswa</p>
-                <h2> Dengan koleksi buku yang terus bertambah dan fitur-fitur yang inovatif, kami hadir
-                    untuk
-                    menemani Anda dalam setiap perjalanan membaca</h2>
+                <h2> “Wahh bukunya keren-keren, banyak juga bukunya sehingga gw bisa banyak buku, apalagi yang teknologi
+                    digital.”</h2>
             </div>
         </div>
 
