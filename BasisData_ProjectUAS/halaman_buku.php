@@ -76,7 +76,7 @@
                 </span>
                 <div class="stock-number">
                   <span>99</span>
-                  <a href="#">Pinjam buku</a>
+                  <a href="login.php">Pinjam buku</a>
                 </div>
 
 
