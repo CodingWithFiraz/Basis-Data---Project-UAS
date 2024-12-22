@@ -51,7 +51,7 @@
     
     <div class="icon_nav">
       <a href="add_book.php"><i class="bi bi-book"></i></a>
-      <a href="#koleksi" class="btn_icon">Ayo Baca</a>
+      <a href="login.php" class="btn_icon">Ayo Baca</a>
     </div>
   
     
@@ -77,7 +77,7 @@
                   
                     ?>
 
-<div class="col-md-4">
+<div class="col-md-4 hidden-left">
                 <img src="asset/<?php echo $row['image']?>" alt="">
                 <div class="buku-para">
                     <h2><?php echo $row["title"]?></h2>
@@ -102,7 +102,7 @@
         <!-- Komentar orang start-->
 
 
-        <div class="komentar-ipan" id="komentar-ipan">
+        <div class="komentar-ipan hidden-top" id="komentar-ipan">
             <div class="komentar-flex">
                 <img src="asset/Talk-Ipan.png" alt="" class="komentator">
                 <h2>Ipan Ramadan</h2>
@@ -183,6 +183,10 @@
 
 
     </div>
+
+
+
+    <script src="script.js"></script>
 
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"

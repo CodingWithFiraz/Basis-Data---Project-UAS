@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap demo</title>
+    <title>Dashboard</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <!-- Google Font -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -17,6 +17,12 @@
 <style>
   <?php include "style.css" ?>
 </style>
+
+<!-- animate -->
+<link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
 
   </head>
   <body>
@@ -43,7 +49,7 @@
     
     <div class="icon_nav">
       <a href="add_book.php"><i class="bi bi-book"></i></a>
-      <a href="#koleksi" class="btn_icon">Ayo Baca</a>
+      <a href="login.php" class="btn_icon">Ayo Baca</a>
     </div>
   
     
@@ -53,11 +59,12 @@
 
   <!-- Jumbotron start -->
   <div class="jumbo">
-    <span>#1 WEBSITE PEMINJAMAN BUKU</span>
-    <h1>Membaca Bersama, <br>
+  <iframe src='https://my.spline.design/booksleeveexperiment-58476fc0c86464a037eb6f005c59cba5/' frameborder='0' width='100%' height='100%' class="spline-img"></iframe>
+    <span >#1 WEBSITE PEMINJAMAN BUKU</span>
+    <h1 class="animate__animated animate__slideInLeft">Membaca Bersama, <br>
     Tumbuh Bersama</h1>
-    <p>Kami adalah perpustakaan digital yang berkomitmen untuk memberikan akses mudah dan nyaman bagi semua orang untuk menikmati dunia literasi</p>
-    <a href="#koleksi">Pinjam Buku Favoritmu</a>
+    <p class="animate__animated animate__slideInLeft">Kami adalah perpustakaan digital yang berkomitmen untuk memberikan akses mudah dan nyaman bagi semua orang untuk menikmati dunia literasi</p>
+    <a href="#koleksi" class="hidden-bottom">Pinjam Buku Favoritmu</a>
 
     <hr>
     <div class="bottom-jumbo">
@@ -71,7 +78,7 @@
   <!-- Tentang Kami start -->
    <div class="tentang" id="tentang">
     <div class="row">
-    <div class="col-md-6">
+    <div class="col-md-6 hidden-left">
       <h2>Tentang Kami</h2>
       <p> Dengan koleksi buku yang terus bertambah dan fitur-fitur yang inovatif, kami hadir untuk menemani Anda dalam setiap perjalanan membaca</p>
       
@@ -81,7 +88,7 @@
       </div>
       
     </div>
-    <div class="col-md-6">
+    <div class="col-md-6 hidden-right ">
       <img src="asset/botak-nuklis-tentang.png" alt="" class="images-tentang">
     </div>
     </div>
@@ -91,7 +98,7 @@
       <h2>Lebih dari Sekadar Buku, <br>
       Ini adalah Petualangan Membaca yang Interaktif</h2>
       <!-- card1 -->
-      <div class="parent col-md-3">
+      <div class="parent col-md-3 hidden-top">
   <div class="card">
       <div class="content-box">
           <span class="card-title">Koleksi Buku Lengkap</span>
@@ -106,7 +113,7 @@
 </div>
 
   <!-- card2 -->
-  <div class="parent col-md-3">
+  <div class="parent col-md-3 hidden-top">
   <div class="card">
       <div class="content-box">
           <span class="card-title">Akses 24/7</span>
@@ -122,7 +129,7 @@
 
 
   <!-- card3 -->
-  <div class="parent col-md-3">
+  <div class="parent col-md-3 hidden-top">
   <div class="card">
       <div class="content-box">
           <span class="card-title">Pinjam Buku Gratis</span>
@@ -138,7 +145,7 @@
 
 
   <!-- card4 -->
-  <div class="parent col-md-3">
+  <div class="parent col-md-3 hidden-top">
   <div class="card">
       <div class="content-box">
           <span class="card-title">Rekomendasi Buku</span>
@@ -155,7 +162,7 @@
     </div>
     <!-- kelebihan end -->
     <!-- koleksi starT -->
-     <div class="row" id="koleksi">
+     <div class="row hidden-top" id="koleksi">
         <div class="col-md-6">
           <h3>Jelajahi koleksi kami dan temukan buku impian Anda!</h3>
           <p> Jangan lewatkan kesempatan untuk meminjam buku terbaru dari penulis favorit Anda. Klik di sini untuk mulai menjelajah!</p>
@@ -208,7 +215,7 @@
     <!-- blog -->
      <div class="blog row">
       <h3>Blog</h3>
-      <div class="col-md-6">
+      <div class="col-md-6 hidden-left">
         <a href="#">
         <img src="asset/bembeng-blog.jpeg" alt="">
         <h5>Kolaborasi Mahasiswa: Strategi untuk Sukses Akademik</h5>
@@ -217,7 +224,7 @@
        
       </div>
 
-      <div class="col-md-6">
+      <div class="col-md-6 hidden-right">
         <a href="#">
         <img src="asset/keluarga-blog.jpeg" alt="">
         <h5>Bukan hanya bakat: buku untuk membantu Anda percaya diri dan berhasil</h5>
@@ -232,7 +239,7 @@
   <!-- best-seller start -->
    <div class="best-seller row">
     <!-- card1 -->
-    <div class="col-md-4"  id="best-seller">
+    <div class="col-md-4 hidden-left "  id="best-seller">
     <div class="flip-card col-md-4" id="best-seller">
     <div class="flip-card-inner">
         <div class="flip-card-front">
@@ -251,7 +258,7 @@
 
 
     <!-- card2 -->
-    <div class="col-md-4" >
+    <div class="col-md-4 hidden-top" >
     <div class="flip-card col-md-4" id="best-seller">
     <div class="flip-card-inner">
     <h3>3 Buku Terlaris</h3>
@@ -272,7 +279,7 @@
 
 
     <!-- card3 -->
-    <div class="col-md-4">
+    <div class="col-md-4 hidden-right">
     <div class="flip-card col-md-4" id="best-seller">
     <div class="flip-card-inner">
         <div class="flip-card-front">
@@ -343,6 +350,8 @@
 
 
 
+
+<script src="script.js"></script>
 
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>

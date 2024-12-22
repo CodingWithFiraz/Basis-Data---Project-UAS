@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap demo</title>
+    <title>Blog</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <!-- Google Font -->
@@ -43,14 +43,14 @@
                 <li><a href="list_buku2.php">
                         Koleksi Buku
                     </a></li>
-                <li><a href="#">
+                <li><a href="blog.php">
                         Blog
                     </a></li>
             </ul>
 
             <div class="icon_nav">
                 <a href="#"><i class="bi bi-book"></i></a>
-                <a href="#" class="btn_icon">Ayo Baca</a>
+                <a href="login.php" class="btn_icon">Ayo Baca</a>
             </div>
 
 
@@ -62,7 +62,7 @@
 
         <div class="blog-list row">
             <!-- page 1 -->
-            <div class="col-md-4">
+            <div class="col-md-4 hidden-left">
                 <img src="asset/keluarga-blog.jpeg" alt="">
                 <div class="blog-para">
                     <h2>Untuk anak dan orang tua: buku untuk dibaca bersama</h2>
@@ -73,7 +73,7 @@
 
             </div>
             <!-- page 2 -->
-            <div class="col-md-4">
+            <div class="col-md-4 hidden-left">
                 <img src="asset/buku-blog.jpeg" alt="">
                 <div class="blog-para">
                     <h2>Kisah cinta untuk setiap selera: lucu, aneh, dalam, tragis</h2>
@@ -85,7 +85,7 @@
                 <!-- page 3 -->
 
             </div>
-            <div class="col-md-4">
+            <div class="col-md-4 hidden-left">
                 <img src="asset/cewe.jpeg" alt="">
                 <div class="blog-para">
                     <h2>Bukan hanya bakat: buku untuk membantu Anda percaya diri dan berhasil</h2>
@@ -100,7 +100,7 @@
         </div>
         <!-- page 4 -->
         <div class="blog-list row">
-            <div class="col-md-4">
+            <div class="col-md-4 hidden-left">
                 <img src="asset/bembeng-blog.jpeg" alt="">
                 <div class="blog-para">
                     <h2>Kolaborasi Mahasiswa: Strategi untuk Sukses Akademik</h2>
@@ -113,7 +113,7 @@
 
             <!-- page 5 -->
 
-            <div class="col-md-4">
+            <div class="col-md-4 hidden-left">
                 <img src="asset/orang-baca-blog.jpeg" alt="">
                 <div class="blog-para">
                     <h2>Buku sunyi: Apa Itu dan Bagaimana Cara Membacanya</h2>
@@ -126,7 +126,7 @@
 
             <!-- page 6 -->
 
-            <div class="col-md-4">
+            <div class="col-md-4 hidden-left">
                 <img src="asset/ui-blog.jpeg" alt="">
                 <div class="blog-para">
                     <h2>Prestasi Gemilang Alumni Universitas Indonesia yang Menginspirasi</h2>
@@ -190,6 +190,7 @@
 
 
 
+    <script src="script.js"></script>
 
 
 

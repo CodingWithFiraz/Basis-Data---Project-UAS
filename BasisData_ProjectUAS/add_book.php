@@ -3,7 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Add book</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+
+<!-- Bootstrap Icon -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+<!-- CSS -->
+<style>
+  <?php include "style.css" ?>
+</style>
+
+<!-- animate -->
+<link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
 </head>
 <body>
 
@@ -29,7 +48,7 @@
     
     <div class="icon_nav">
       <a href="add_book.php"><i class="bi bi-book"></i></a>
-      <a href="#koleksi" class="btn_icon">Ayo Baca</a>
+      <a href="login.php" class="btn_icon">Ayo Baca</a>
     </div>
   
     
@@ -39,27 +58,27 @@
 
 
   <!-- form -->
-<form action="function.php" method="post" enctype="multipart/form-data" class="bg-[#8B5DFF] rounded-xl py-5 px-7 font-semibold">
-          <div class="form-element my-4 flex items-center gap-12">
+<form action="function.php" method="post" enctype="multipart/form-data" class="form-add">
+          <div class="">
               <label for="image">Image </label>
               <input type="file" name="image" id="image">
             </div>
 
-            <div class="flex gap-5">
-            <div class="form-element my-4 w-6/12">
+            <div class="form-row">
+            <div class="form-in">
                 <label for="title">Book title</label><br>
-                <input type="text" name="title" placeholder="Book Title" class="form-control bg-[#563A9C] px-5 py-3 w-full rounded-lg font-normal">
+                <input type="text" name="title" placeholder="Book Title" class="">
             </div>
-            <div class="form-element my-4 w-6/12">
+            <div class="">
                 <label for="author">Author name</label><br>
-                <input type="text" name="author" placeholder="Author Name" class="form-control bg-[#563A9C] px-5 py-3 w-full rounded-lg font-normal">
+                <input type="text" name="author" placeholder="Author Name" class="">
             </div>
             </div>
             
-            <div class="flex gap-5">
-            <div class="form-element my-4 w-6/12">
+            <div class="form-row">
+            <div class="form-in">
                 <label for="type">Book Type</label><br>
-              <select name="type" class="form-control bg-[#563A9C] px-5 py-3 w-full rounded-lg font-normal">
+              <select name="type" class="">
                 <option value="">Select Book Type</option>
                 <option value="Manajemen">Manajemen</option>
                 <option value="Psikologi">Psikologi</option>
@@ -70,15 +89,15 @@
                 <option value="Self Development">Self Development</option>
               </select>
             </div>
-            <div class="form-element my-4 w-6/12">
+            <div class="">
                 <label for="description">Book Description</label><br>
-                <input type="text" name="description" placeholder="Book Description" class="form-control bg-[#563A9C] px-5 py-3 w-full rounded-lg font-normal">
+                <input type="text" name="description" placeholder="Book Description" class="">
             </div>
             </div>
             
           
-            <div class="form-element mt-8">
-                <input type="submit" value="Add book" name="create" class="px-5 py-2 rounded-xl font-semibold border-2 border-white hover:bg-[#6A42C2] hover:border-purple-500 cursor-pointer">
+            <div class="btn-form">
+                <input type="submit" value="Add book" name="create" class="">
             </div>
         </form>
 
@@ -128,8 +147,9 @@
 </div>
 
 
+<script src="script.js"></script>
 
-
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
     
 </body>
 </html>
